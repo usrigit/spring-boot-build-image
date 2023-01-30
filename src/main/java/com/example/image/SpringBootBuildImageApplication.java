@@ -11,7 +11,7 @@ public class SpringBootBuildImageApplication {
 
 	@GetMapping("/api/image")
 	public String getMsg(){
-		return "Create docker from SB app";
+		return "Create docker from SB app using helm";
 	}
 
 	public static void main(String[] args) {
